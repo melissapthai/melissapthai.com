@@ -4,8 +4,8 @@ const siteMetadata = {
   description: "Melissa Thai's personal website",
   language: "en-us",
   theme: "system", // system, dark or light
-  siteUrl: "https://tailwind-nextjs-starter-blog.vercel.app",
-  siteRepo: "https://github.com/timlrx/tailwind-nextjs-starter-blog",
+  siteUrl: "http://personal-website-delta-ecru.vercel.app/",
+  siteRepo: "https://github.com/melissapthai/melissapthai.com",
   siteLogo: "../public/favicon.ico",
   email: "melissapthai@gmail.com",
   github: "https://github.com/melissapthai",
