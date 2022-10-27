@@ -3,7 +3,10 @@ import SocialIcon from './socialicon'
 
 export default function Hero() {
   return (
-    <div className="flex flex-col-reverse bg-[url('../public/hero.jpg')] bg-no-repeat bg-cover bg-center h-[30rem] mx-[-2rem]">
+    <div
+      className="flex flex-col-reverse bg-no-repeat bg-cover bg-center h-[30rem] mx-[-2rem]"
+      style={{ backgroundImage: 'url(/hero.jpg)' }}
+    >
       <div className='flex flex-row justify-center space-x-10 p-8 mb-24'>
         <SocialIcon kind="mail" href={`mailto:${siteMetadata.email}`} />
         <SocialIcon kind="goodreads" href={siteMetadata.goodreads} />
