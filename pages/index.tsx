@@ -7,7 +7,7 @@ import siteMetadata from "../data/siteMetadata";
 
 const Home: NextPage = () => {
   return (
-    <div className="">
+    <>
       <Head>
         <title>Melissa Thai</title>
         <link rel="icon" href="/favicon.ico" />
@@ -49,7 +49,7 @@ const Home: NextPage = () => {
           </Button>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
