@@ -1,8 +1,9 @@
 import { useRouter } from 'next/router'
 
 import NavLink from './navlink';
+import { Route } from './interfaces/route';
 
-export default function Header({ routes }) {
+export default function Header({ routes }: {routes: Route[]}) {
   const router = useRouter();
   return (    
     <header className="flex items-center px-10">
