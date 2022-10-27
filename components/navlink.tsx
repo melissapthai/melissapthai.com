@@ -1,17 +1,19 @@
-import Link from 'next/link'
-import classNames from 'classnames'
+import Link from "next/link";
+import classNames from "classnames";
 
-export default function NavLink({ href = '/', title = 'Link', selected = false }) {
+export default function NavLink({
+  href = "/",
+  title = "Link",
+  selected = false,
+}) {
   return (
     <Link
       href={href}
-      className={classNames("hover:underline underline-offset-8 p-4",
-      {
-        'underline underline-offset-8': selected,
-      }
-      )}
+      className={classNames("p-4 underline-offset-8 hover:underline", {
+        "underline underline-offset-8": selected,
+      })}
     >
       {title}
     </Link>
-  )
+  );
 }
