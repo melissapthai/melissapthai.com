@@ -3,7 +3,7 @@ import classNames from "classnames";
 interface ButtonProps {
   children: React.ReactNode;
   className?: string;
-  href?: string;
+  href: string;
 }
 
 export default function Button({ children, className, href }: ButtonProps) {

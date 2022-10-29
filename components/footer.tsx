@@ -4,13 +4,15 @@ import { Route } from "./interfaces/route";
 
 export default function Footer({ routes }: { routes: Route[] }) {
   const router = useRouter();
+  const currentYear = new Date().getFullYear();
+
   return (
     <>
       <hr />
       <small>
         <footer className="flex items-center p-4">
           <div className="flex basis-1/3">
-            &copy; 2022 Melissa Thai. All rights reserved.
+            &copy; {currentYear} Melissa Thai. All rights reserved.
           </div>
           <div className="basis-1/3 text-center">
             Made with ❤️ by Melissa Thai
