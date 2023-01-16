@@ -4,9 +4,9 @@ export default function Resume() {
   return (
     <>
       <Head>
-        <title>About</title>
+        <title>Resume</title>
       </Head>
-      <h1>Resume page!</h1>
+      <iframe class="h-screen w-full" src="resume_20230116.pdf" />
     </>
   );
 }
