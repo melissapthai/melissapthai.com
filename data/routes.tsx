@@ -15,10 +15,6 @@ export const routes: Array<Route> = [
     title: "About",
   },
   {
-    href: "/blog",
-    title: "Blog",
-  },
-  {
     href: "/resume",
     title: "Resume",
   },
