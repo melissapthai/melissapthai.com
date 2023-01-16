@@ -1,8 +1,8 @@
 import { useRouter } from "next/router";
 import NavLink from "./navlink";
-import { Route } from "./interfaces/route";
+import { routes } from "../data/routes";
 
-export default function Footer({ routes }: { routes: Route[] }) {
+export default function Footer() {
   const router = useRouter();
   const currentYear = new Date().getFullYear();
 
