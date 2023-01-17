@@ -6,7 +6,7 @@ export default function Resume() {
       <Head>
         <title>Resume</title>
       </Head>
-      <iframe class="h-screen w-full" src="resume_20230116.pdf" />
+      <iframe className="h-screen w-full" src="resume_20230116.pdf"></iframe>
     </>
   );
 }
