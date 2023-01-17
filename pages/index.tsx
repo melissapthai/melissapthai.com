@@ -14,7 +14,7 @@ const Home: NextPage = () => {
       </Head>
       <Hero />
       <div className="flex flex-col p-8">
-        <div className="flex w-[44rem] flex-col space-y-8 self-center pb-8 text-center text-lg leading-relaxed antialiased">
+        <div className="flex flex-col space-y-8 self-center pb-8 text-center text-lg leading-relaxed antialiased lg:w-[44rem]">
           <div>
             <span className="font-semibold">Hi there!</span> My name is Melissa
             and I'm a <span className="font-semibold">software engineer</span>{" "}

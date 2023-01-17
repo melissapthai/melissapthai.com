@@ -14,7 +14,7 @@ export default function Header() {
   const alt = isDarkMode ? "sun icon" : "moon icon";
 
   return (
-    <header className="flex items-center px-10">
+    <header className="flex items-center lg:px-10">
       <div className="basis-1/3">
         <h1>Melissa Thai</h1>
       </div>
