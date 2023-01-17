@@ -38,7 +38,7 @@ const Home: NextPage = () => {
           </p>
           <Button
             href={`mailto:${siteMetadata.email}`}
-            className="p-8 transition duration-150 ease-in-out hover:scale-105"
+            className="py-8 transition duration-150 ease-in-out hover:scale-105 md:px-8"
           >
             <span className="text-xl text-white">
               Say Hello{" "}

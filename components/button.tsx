@@ -11,7 +11,7 @@ export default function Button({ children, className, href }: ButtonProps) {
     <div className={className}>
       <a
         className={classNames(
-          "bg-200 rounded-lg bg-gradient-to-r from-cyan-500 to-sky-900 px-20 py-4"
+          "bg-200 rounded-lg bg-gradient-to-r from-cyan-500 to-sky-900 px-10 py-4 md:px-20"
         )}
         href={href}
         target="_blank"
