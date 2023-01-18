@@ -8,11 +8,11 @@ export default function About() {
       <Head>
         <title>About</title>
       </Head>
-      <div className="flex flex-row py-8 px-10">
-        <div className="flex w-1/2 justify-center">
+      <div className="flex flex-col py-8 lg:flex-row lg:px-10">
+        <div className="flex justify-center lg:w-1/2">
           <div className="w-paragraph">
             <h1 className="py-4 text-2xl">About</h1>
-            <div className="space-y-6  text-lg leading-loose">
+            <div className="space-y-4 py-4 text-lg  leading-loose lg:space-y-6">
               <p>Hi, hello!</p>
               <p>
                 I'm a software engineer by trade (if you want to learn more,
@@ -38,7 +38,7 @@ export default function About() {
             </div>
           </div>
         </div>
-        <div className="flex h-full w-1/2 justify-center">
+        <div className="flex h-full justify-center py-4 lg:w-1/2">
           <Image
             src="/bio.jpg"
             alt="picture of melissa"
