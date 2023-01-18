@@ -12,13 +12,7 @@ export default function Footer() {
       <small>
         <footer>
           <div className="grid grid-cols-1 p-4 lg:grid-cols-3">
-            <div className="py-2 text-center lg:py-4 lg:text-left">
-              &copy; {currentYear} Melissa Thai. All rights reserved.
-            </div>
-            <div className="py-2 text-center lg:py-4">
-              Made with ❤️ by Melissa Thai
-            </div>
-            <div className="flex justify-center lg:justify-end">
+            <div className="order-first flex justify-center lg:order-last lg:justify-end">
               {routes.map((route) => (
                 <NavLink
                   key={route.href}
@@ -31,6 +25,12 @@ export default function Footer() {
                   }
                 />
               ))}
+            </div>
+            <div className="py-2 text-center lg:py-4 lg:text-left">
+              &copy; {currentYear} Melissa Thai. All rights reserved.
+            </div>
+            <div className="py-2 text-center lg:py-4">
+              Made with ❤️ by Melissa Thai
             </div>
           </div>
         </footer>
