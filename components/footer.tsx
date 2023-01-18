@@ -10,26 +10,28 @@ export default function Footer() {
     <>
       <hr />
       <small>
-        <footer className="flex items-center p-4">
-          <div className="flex basis-1/3">
-            &copy; {currentYear} Melissa Thai. All rights reserved.
-          </div>
-          <div className="basis-1/3 text-center">
-            Made with ❤️ by Melissa Thai
-          </div>
-          <div className="flex basis-1/3 justify-end">
-            {routes.map((route) => (
-              <NavLink
-                key={route.href}
-                href={route.href}
-                title={route.title}
-                selected={
-                  route.exact
-                    ? route.href === router.asPath
-                    : router.asPath.startsWith(route.href)
-                }
-              />
-            ))}
+        <footer>
+          <div className="grid grid-cols-1 p-4 lg:grid-cols-3">
+            <div className="py-2 text-center lg:py-4 lg:text-left">
+              &copy; {currentYear} Melissa Thai. All rights reserved.
+            </div>
+            <div className="py-2 text-center lg:py-4">
+              Made with ❤️ by Melissa Thai
+            </div>
+            <div className="collapse flex justify-end lg:visible">
+              {routes.map((route) => (
+                <NavLink
+                  key={route.href}
+                  href={route.href}
+                  title={route.title}
+                  selected={
+                    route.exact
+                      ? route.href === router.asPath
+                      : router.asPath.startsWith(route.href)
+                  }
+                />
+              ))}
+            </div>
           </div>
         </footer>
       </small>
