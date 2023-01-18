@@ -9,7 +9,7 @@ export default function NavLink({
   return (
     <Link
       href={href}
-      className={classNames("p-4 underline-offset-8 hover:underline", {
+      className={classNames("p-2 underline-offset-8 hover:underline lg:p-4", {
         "underline underline-offset-8": selected,
       })}
     >
