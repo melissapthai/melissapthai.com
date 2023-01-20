@@ -47,7 +47,7 @@ export default function Header() {
   const name = isBreakpoint ? "MT" : "Melissa Thai";
 
   return (
-    <header className="flex items-center lg:px-10">
+    <header className="flex items-center py-2 lg:py-0 lg:px-10">
       <div className="basis-1/3">
         <h1>{name}</h1>
       </div>
