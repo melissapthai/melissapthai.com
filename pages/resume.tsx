@@ -1,4 +1,5 @@
 import Head from "next/head";
+import siteMetadata from "../data/siteMetadata";
 
 export default function Resume() {
   return (
@@ -6,7 +7,7 @@ export default function Resume() {
       <Head>
         <title>Resume</title>
       </Head>
-      <iframe className="h-screen w-full" src="resume_20230116.pdf"></iframe>
+      <iframe className="h-screen w-full" src={siteMetadata.resume}></iframe>
     </>
   );
 }
