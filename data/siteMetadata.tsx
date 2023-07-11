@@ -8,7 +8,7 @@ const siteMetadata = {
   siteRepo: "https://github.com/melissapthai/melissapthai.com",
   siteLogo: "../public/favicon.ico",
   email: "melissapthai@gmail.com",
-  resume: "resume_20220125.pdf",
+  resume: "resume_20230524.pdf",
   github: "https://github.com/melissapthai",
   goodreads: "https://www.goodreads.com/user/show/58071841-melissa-thai",
   instagram: "https://www.instagram.com/melissapthai/",
